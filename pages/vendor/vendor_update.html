@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<link rel="stylesheet" href="C:\html_pages\messenger\css\bootstrap.css" type="text/css" />
+		<script type="text/javascript" src = "../../js/angularjs/js/angular.js"></script>		
+	</head>
+	
+	<body>
+		<form class="form-horizontal">
+			<fieldset>
+				<legend><p>Update Vendor</p></legend>
+				<div class="form-group">
+					<label for="vendorName" class="col-lg-2 control-label">Vendor Name</label>
+					<div class="col-lg-2">
+					      <input type="text" class="form-control" id="vendorHeader" placeholder="Vendor Name" readonly="true" disabled="true">
+			        </div>
+				</div>
+				<div class="form-group">
+					<label for="vendorHeader" class="col-lg-2 control-label">Vendor Header</label>
+				     <div class="col-lg-2">
+				        <input type="text" class="form-control" id="vendorHeader" placeholder="Vendor Header" >
+				     </div>
+				</div>
+				<div class="form-group">
+			      <label for="select" class="col-lg-2 control-label">Vendor Credentials</label>
+			      <div class="col-lg-2">
+			        <select class="form-control" id="select">
+				          <option id = "1">Zang</option>
+				          <option id = "2">EZ</option>
+			        </select>
+			       </div>
+        		</div>
+				<div class="form-group">
+					<label for="vendorPriority" class="col-lg-2 control-label">Vendor Priority</label>
+				     <div class="col-lg-2">
+				        <select class="form-control" id="select">
+					          <option id = "1">1</option>
+					          <option id = "2">2</option>
+					          <option id = "3">3</option>
+				        </select>
+			       	</div>
+				</div>
+				<div class="form-group">
+					<label for="vendorStatus" class="col-lg-2 control-label">Vendor Status</label>
+				     <div class="col-lg-2">
+				        <select class="form-control" id="select">
+					          <option id = "1">Start</option>
+					          <option id = "2">Stop</option>
+					    </select>
+			       	</div>
+				</div>
+				<div class="form-group">
+					<label for="textArea" class="col-lg-2 control-label">Vendor URL</label>
+				      <div class="col-lg-2">
+				        <textarea class="form-control" rows="3" id="textArea"/></textarea>
+				        <span class="help-block">Please Enter POST in X format , Enter GET in Y format</span>
+				      </div>
+				</div>
+				<div class="form-group">
+			      <div class="col-lg-2 col-lg-offset-2">
+			        <button type="reset" class="btn btn-default">Cancel</button>
+			        <button type="submit" class="btn btn-primary">Submit</button>
+			      </div>
+    			</div>
+			</fieldset>
+		</form>
+	</body>
+</html>
